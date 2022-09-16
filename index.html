@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <div class="digits">
+            <div class="svg-icon">
+                <svg class="scroll-icon" dth="98" height="57" viewBox="0 0 98 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2.2742" y="2.35088" width="93.4516" height="52.6491" rx="26.3246" fill="#2B2323" stroke="#474040" stroke-width="4"/>
+                    <ellipse class="scroll" cx="69.156" cy="28.955" rx="22.51" ry="23.0348" fill="#BBC2B8"/>
+                </svg>
+                <span class="theme_text">Switch to light Theme</span>
+            </div>
+            <div class="btns">
+                <button data-clear class="span-two clear">AC</button>
+                <button data-delete class="del">DEL</button>
+                <button data-operation class="operator">÷</button>
+                <button data-number class="number">7</button>
+                <button data-number class="number">8</button>
+                <button data-number class="number">9</button>
+                <button data-operation class="operator">+</button>
+                <button data-number class="number">4</button>
+                <button data-number class="number">5</button>
+                <button data-number class="number">6</button>
+                <button data-operation class="operator">*</button>
+                <button data-number class="number">1</button>
+                <button data-number class="number">2</button>
+                <button data-number class="number">3</button>
+                <button data-operation class="operator">-</button>
+                <button data-number class="number">.</button>
+                <button data-number class="number">0</button>
+                <button data-equal class="span-two equal">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
